@@ -57,8 +57,7 @@ jobs:
               cypress/e2e/AdminE2E/calculatedValueTestsManagement.cy.js,
               cypress/e2e/AdminE2E/MenuConfig/studyMenuConfig.cy.js,
               cypress/e2e/AdminE2E/notifyUser.cy.js,
-              cypress/e2e/AdminE2E/resultReportingConfig.cy.js,
-              cypress/e2e/barcode-workflow.cy.js
+              cypress/e2e/AdminE2E/resultReportingConfig.cy.js
           - shard: independent
             shard_name: Independent
             specs: ""
