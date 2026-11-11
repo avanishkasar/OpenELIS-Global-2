@@ -79,6 +79,7 @@
 
         <!-- Microbiology MVP reference/config entities (OGC-782 M1) -->
         <class>org.openelisglobal.microbiology.valueholder.MicroOrganism</class>
+        <class>org.openelisglobal.microbiology.valueholder.MicroWhonetOrganism</class>
         <class>org.openelisglobal.microbiology.valueholder.MicroAntibiotic</class>
         <class>org.openelisglobal.microbiology.valueholder.MicroAstPanel</class>
         <class>org.openelisglobal.microbiology.valueholder.MicroAstPanelAntibiotic</class>
@@ -173,6 +174,9 @@
         <!-- Dictionary entities (migrated from HBM to JPA annotations) -->
         <class>org.openelisglobal.dictionary.valueholder.Dictionary</class>
         <class>org.openelisglobal.dictionarycategory.valueholder.DictionaryCategory</class>
+
+        <!-- DocumentType entity (migrated from HBM to JPA annotations) -->
+        <class>org.openelisglobal.reports.valueholder.DocumentType</class>
 
         <!-- UOM type mapping (OGC-356 environmental workflow) -->
         <class>org.openelisglobal.unitofmeasure.valueholder.UomTypeMap</class>
