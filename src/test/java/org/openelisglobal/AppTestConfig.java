@@ -237,7 +237,7 @@ public class AppTestConfig implements WebMvcConfigurer {
         return mock(FhirConfig.class);
     }
 
-    @Bean()
+    @Bean(name = { "closeableHttpClient", "localFhirHttpClient", "partnerFhirHttpClient" })
     @Profile("test")
     public CloseableHttpClient closeableHttpClient() {
         return mock(CloseableHttpClient.class);
